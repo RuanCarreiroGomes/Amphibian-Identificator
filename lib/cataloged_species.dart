@@ -1,5 +1,5 @@
-import 'package:amphibian_identificator/info-specie.dart';
-import 'package:amphibian_identificator/specie.dart';
+import 'package:amphibian_identificator/species/info-specie.dart';
+import 'package:amphibian_identificator/species/specie.dart';
 import 'package:flutter/material.dart';
 
 class Catalog extends StatelessWidget {

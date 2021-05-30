@@ -1,4 +1,5 @@
-import 'package:amphibian_identificator/info-specie.dart';
+import 'package:amphibian_identificator/species/info-specie.dart';
+import 'package:amphibian_identificator/main.dart';
 import 'package:flutter/material.dart';
 
 class Specie extends StatelessWidget {
@@ -39,10 +40,18 @@ class Specie extends StatelessWidget {
               width: 100,
               child: RaisedButton(
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Inf_Specie()),
-                  );
+                  if (this.name == "Bufo alvarius") {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Inf_Specie()),
+                    );
+                  }
+                  if(this.name == "Bufo periglenes"){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => MyApp()),
+                    );
+                  }
                 },
                 color: Colors.green[900],
                 child: Icon(
