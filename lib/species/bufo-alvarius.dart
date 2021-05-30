@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Inf_Specie extends StatelessWidget {
+import 'data.dart';
+
+class Bufo_alvarius extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,17 +20,7 @@ class Inf_Specie extends StatelessWidget {
         elevation: 10,
       ),
 
-      body: ListView(
-        
-        children: [
-          Container(
-            padding: EdgeInsets.only(top:20, left: 20, right: 20),
-            child: Column(
-              
-            ),
-          )
-        ],
-      ),
+      body: Specie_Data('images/anura/bufoalvarius.jpg', 'pop_name', 'family', 'specie', 'order', 'size', 'toxic', 'habit', 'habitat', 'activity', 'thd_degree', 'reproduction', 'livein'),
 
       drawer: Drawer(),
     );

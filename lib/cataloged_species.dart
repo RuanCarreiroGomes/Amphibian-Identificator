@@ -1,4 +1,4 @@
-import 'package:amphibian_identificator/species/info-specie.dart';
+import 'package:amphibian_identificator/species/bufo-alvarius.dart';
 import 'package:amphibian_identificator/species/specie.dart';
 import 'package:flutter/material.dart';
 
