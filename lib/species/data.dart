@@ -96,9 +96,8 @@ class Specie_Data extends StatelessWidget {
                             children: [
                               Text("Tamanho", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
-                                height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                                height: 65,
+                                child: Image.asset("images/data/frog-size.png"),
                               ),  
                               Text(this.size, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
                             ],
@@ -117,11 +116,14 @@ class Specie_Data extends StatelessWidget {
                             children: [
                               Text("Venenoso", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
-                                height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                              width: 50,
+                              height: 50,
+                                child: Image.asset("images/data/toxic.png"),
                               ),  
-                              Text(this.toxic, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(this.toxic, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              ),
                             ],
                           )
                         ),
@@ -138,11 +140,14 @@ class Specie_Data extends StatelessWidget {
                             children: [
                               Text("Hábito", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
+                                width: 50,
                                 height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                                child: Image.asset("images/data/habit-semiaquatico.png"),
                               ),  
-                              Text(this.habit, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8.0),
+                                child: Text(this.habit, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              ),
                             ],
                           )
                         ),
@@ -167,13 +172,16 @@ class Specie_Data extends StatelessWidget {
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.grey[300]),
                           child: Column(
                             children: [
-                              Text("Habitat", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
+                              Text("Hábitat", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
+                                width: 50,
                                 height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                                child: Image.asset("images/data/habitat-arido.png"),
                               ),  
-                              Text(this.habitat, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(this.habitat, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              ),
                             ],
                           )
                         ),
@@ -190,11 +198,14 @@ class Specie_Data extends StatelessWidget {
                             children: [
                               Text("Atividade", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
+                                width: 50,
                                 height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                                child: Image.asset("images/data/activity-noturno.png"),
                               ),  
-                              Text(this.activity, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(this.activity, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
+                              ),
                             ],
                           )
                         ),
@@ -211,9 +222,9 @@ class Specie_Data extends StatelessWidget {
                             children: [
                               Text("Grau de\nameaça", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.brown[900], fontSize: 16),),
                               Container(
-                                width: 30,
+                                width: 50,
                                 height: 50,
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.red[300]),
+                                child: Image.asset("images/data/threatdegree-less.png"),
                               ),  
                               Text(this.threatDegree, style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 14),),
                             ],

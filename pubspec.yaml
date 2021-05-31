@@ -48,7 +48,15 @@ flutter:
   assets:
   - images/anura/bufoalvarius.jpg
   - images/anura/bufoperiglenes.jpg
+  
   - images/logo.png
+  
+  - images/data/frog-size.png
+  - images/data/toxic.png
+  - images/data/threatdegree-less.png
+  - images/data/habitat-arido.png
+  - images/data/habit-semiaquatico.png
+  - images/data/activity-noturno.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

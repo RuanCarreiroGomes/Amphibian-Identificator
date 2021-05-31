@@ -20,7 +20,7 @@ class Bufo_alvarius extends StatelessWidget {
         elevation: 10,
       ),
 
-      body: Specie_Data('images/anura/bufoalvarius.jpg', 'pop_name', 'family', 'specie', 'order', 'size', 'toxic', 'habit', 'habitat', 'activity', 'thd_degree', 'reproduction', 'livein'),
+      body: Specie_Data('images/anura/bufoalvarius.jpg', 'Sapo do Rio Colorado', 'Bufonidae', 'B. alvarius', 'Anura', '100-190 mm', 'Sim', 'Semi-aquático', 'Áreas áridas', 'Noturno', 'Baixa', 'Ovos depositados em tubos gelatinosos', 'Norte do México'),
 
       drawer: Drawer(),
     );
