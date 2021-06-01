@@ -1,5 +1,5 @@
 import 'package:amphibian_identificator/species/bufo-alvarius.dart';
-import 'package:amphibian_identificator/species/specie.dart';
+import 'package:amphibian_identificator/species/builder/specie.dart';
 import 'package:flutter/material.dart';
 
 class Catalog extends StatelessWidget {
@@ -30,7 +30,7 @@ class Catalog extends StatelessWidget {
                   children: [
                   Specie("Bufo alvarius", "images/anura/bufoalvarius.jpg"),
                   
-                  Specie("Bufo periglenes", "images/anura/bufoperiglenes.jpg")
+                  
                   ],
                 ),
               ],
