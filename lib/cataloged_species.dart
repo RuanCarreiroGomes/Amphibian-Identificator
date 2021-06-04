@@ -1,4 +1,3 @@
-import 'package:amphibian_identificator/species/bufo-alvarius.dart';
 import 'package:amphibian_identificator/species/builder/specie.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +20,8 @@ class Catalog extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text("Anfíbios catalogados:", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.bold, color: Colors.green[900], fontSize: 30),),
+                
+                
                 Padding(
                   padding: const EdgeInsets.only(top: 38.0),
                   child: Text("Ordem Anura", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.w300,color: Colors.green[900], fontSize: 20, ),),
@@ -30,7 +31,21 @@ class Catalog extends StatelessWidget {
                   children: [
                   Specie("Bufo alvarius", "images/anura/bufoalvarius.jpg"),
                   
+                  Specie("Bufo regularis", "images/anura/buforegularis.jpg"),
+                  ],
+                ),
+                
+                
+                Padding(
+                  padding: const EdgeInsets.only(top: 38.0),
+                  child: Text("Ordem Urodela", style: TextStyle(fontFamily: 'Poppins',fontWeight: FontWeight.w300,color: Colors.green[900], fontSize: 20, ),),
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                  Specie("Salamandra salamandra", "images/urodela/Ssalamandra.jpg"),
                   
+                  Specie("Calotriton arnoldii", "images/urodela/Calotritonarnoldii.jpg")
                   ],
                 ),
               ],

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'builder/data.dart';
+import '../builder/data.dart';
 
 
 

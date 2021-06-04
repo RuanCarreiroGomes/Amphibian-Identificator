@@ -1,5 +1,6 @@
-import 'package:amphibian_identificator/species/bufo-alvarius.dart';
+import 'package:amphibian_identificator/species/anura/bufo-alvarius.dart';
 import 'package:amphibian_identificator/main.dart';
+import 'package:amphibian_identificator/species/anura/bufo-regularis.dart';
 import 'package:flutter/material.dart';
 
 class Specie extends StatelessWidget {
@@ -44,6 +45,12 @@ class Specie extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Bufo_alvarius()),
+                    );
+                  }
+                  if (this.name == "Bufo regularis") {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Bufo_regularis()),
                     );
                   }
                   if(this.name == "Bufo periglenes"){

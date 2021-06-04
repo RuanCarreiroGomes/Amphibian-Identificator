@@ -46,11 +46,19 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  - images/anura/bufoalvarius.jpg
-  - images/anura/bufoperiglenes.jpg
   
+    #Anura
+  - images/anura/bufoalvarius.jpg
+  - images/anura/buforegularis.jpg
+
+    #Urodela
+  - images/urodela/Ssalamandra.jpg
+  - images/urodela/Calotritonarnoldii.jpg
+  
+    #Logo
   - images/logo.png
   
+    #Data
   - images/data/frog-size.png
   - images/data/toxic.png
   - images/data/threatdegree-less.png

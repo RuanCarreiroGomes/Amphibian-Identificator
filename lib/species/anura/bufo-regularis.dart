@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'builder/data.dart';
+import '../builder/data.dart';
 
 
 
-class Bufo_alvarius extends StatelessWidget {
+class Bufo_regularis extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +22,7 @@ class Bufo_alvarius extends StatelessWidget {
         elevation: 10,
       ),
 
-      body: Specie_Data('images/anura/bufoalvarius.jpg', 'Sapo do Rio Colorado', 'Bufonidae', 'B. alvarius', 'Anura', '100-190 mm', 'Sim', 'Semi-aquático', 'Áreas áridas', 'Noturno', 'Baixa', 'Ovos depositados em tubos gelatinosos', 'Norte do México'),
+      body: Specie_Data('images/anura/buforegularis.jpg', 'Sapo comum africano', 'Bufonidae', 'S. regularis', 'Anura', '62-130mm', 'Não', 'Semi-aquático', 'Savana', 'Noturno', 'Baixa', 'Deposita seus ovos na água', 'África'),
 
       drawer: Drawer(),
     );
